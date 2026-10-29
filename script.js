@@ -4,11 +4,13 @@ const galleries = {
   engagement: [
     ["images/engagement-proposal.jpg", "The moment we said yes"],
     ["images/engagement-portrait.jpg", "A little look of forever"],
+    ["images/engagement-ring.jpg", "One little promise"],
     ["images/engagement-family.jpg", "Our favourite people"],
     ["images/engagement-family-two.jpg", "Together with everyone we love"],
+    ["images/engagement-candid.jpg", "A quiet little moment"],
     ["images/engagement-cake.jpg", "Cake, laughter & us"]
   ],
-  wedding: [], postwedding: [], reception: []
+  wedding: [], reception: []
 };
 
 const photoGrid = document.querySelector("#photo-grid");
@@ -19,7 +21,7 @@ function showGallery(key) {
       photoGrid.innerHTML = '<div class="no-photos reception-note"><strong>The reception album is saving its sparkle ✨</strong>Our favourite moments are on the way. Check back after the celebrations!</div>';
       return;
     }
-    const names = { wedding: "Wedding", postwedding: "Post-wedding", reception: "Reception" };
+    const names = { wedding: "Wedding", reception: "Reception" };
     photoGrid.innerHTML = `<div class="no-photos"><strong>${names[key]} photos are on their way</strong>Add your album image URLs in <code>script.js</code> when you’re ready.</div>`;
     return;
   }
