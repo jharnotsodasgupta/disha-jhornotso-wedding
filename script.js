@@ -4,10 +4,8 @@ const galleries = {
   engagement: [
     ["images/engagement-proposal.jpg", "The moment we said yes"],
     ["images/engagement-portrait.jpg", "A little look of forever"],
-    ["images/engagement-ring.jpg", "One little promise"],
     ["images/engagement-family.jpg", "Our favourite people"],
     ["images/engagement-family-two.jpg", "Together with everyone we love"],
-    ["images/engagement-candid.jpg", "A quiet little moment"],
     ["images/engagement-cake.jpg", "Cake, laughter & us"]
   ],
   wedding: [], postwedding: [], reception: []
